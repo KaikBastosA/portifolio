@@ -1,0 +1,15 @@
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia .Icon{
+    transition: transform 0.3s ease-in-out;
+}
+
+.socialMedia .Icon:hover{
+    transform: scale(1.2);
+}
