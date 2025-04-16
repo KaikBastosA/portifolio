@@ -3,6 +3,7 @@ import Image from "next/image";
 import eu from "@/assets/eu.png";
 import SocialMedia from "@/components/socialMedia";
 import BotaoBranco from "@/components/botaoBranco";
+import Projetos from "@/components/projetos";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
         <BotaoBranco texto="Mais sobre mim" link="/sobre-mim"/>
       <SocialMedia />
       </section >
+      <section className={style.projects}>
+        <Projetos/>
+      </section>
     </>
   )
 }
