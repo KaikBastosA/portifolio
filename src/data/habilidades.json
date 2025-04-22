@@ -1,0 +1,81 @@
+[
+    {
+      "id": 1,
+      "nome": "React",
+      "descricao": "Biblioteca JavaScript para construir interfaces de usuário.",
+      "icone": "/icons/react.png"
+    },
+    {
+      "id": 2,
+      "nome": "Next.js",
+      "descricao": "Framework React para aplicações web modernas com SSR.",
+      "icone": "/icons/nextjs.png"
+    },
+    {
+      "id": 3,
+      "nome": "TypeScript",
+      "descricao": "Superset do JavaScript que adiciona tipagem estática.",
+      "icone": "/icons/typescript.png"
+    },
+    {
+        "id": 4,
+        "nome": "Photoshop",
+        "descricao": "Software de edição de imagens e design gráfico.",
+        "icone": "/icons/photoshop.png"
+    },
+    {
+        "id": 5,
+        "nome": "Illustrator",
+        "descricao": "Software de design gráfico e ilustração vetorial.",
+        "icone": "/icons/illustrator.png"
+    },
+    {
+        "id": 6,
+        "nome": "Figma",
+        "descricao": "Ferramenta de design de interface e prototipagem.",
+        "icone": "/icons/figma.png"
+    },
+    {
+        "id": 7,
+        "nome": "SQL",
+        "descricao": "Linguagem de consulta para bancos de dados relacionais.",
+        "icone": "/icons/sql.png"
+    },
+    {
+        "id": 8,
+        "nome": "Power BI",
+        "descricao": "Ferramenta de visualização e análise de dados da Microsoft.",
+        "icone": "/icons/powerbi.png"
+    },
+    {
+        "id": 9,
+        "nome": "WordPress",
+        "descricao": "Sistema de gerenciamento de conteúdo (CMS) para criação de sites.",
+        "icone": "/icons/wordpress.png"
+    },
+    {
+        "id": 10,
+        "nome": "Elementor",
+        "descricao": "Construtor de páginas para WordPress com interface drag-and-drop.",
+        "icone": "/icons/elementor.png"
+    },
+    {
+        "id": 11,
+        "nome": "JavaScript",
+        "descricao": "Linguagem de programação para desenvolvimento web.",
+        "icone": "/icons/javascript.png"
+    },
+    {
+        "id": 12,
+        "nome": "HTML",
+        "descricao": "Linguagem de marcação para estruturar páginas web.",
+        "icone": "/icons/html5.png"
+    },
+    {
+        "id": 13,
+        "nome": "CSS",
+        "descricao": "Linguagem de estilo para estilizar páginas web.",
+        "icone": "/icons/css3.png"
+    }
+  ]
+  
