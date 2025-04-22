@@ -1,28 +1,31 @@
-.aboutMe{
-    width: auto;
-    height: 80vh;
+
+
+.aboutMe {
+    width: 100%;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    text-align: center;
 }
 
-.aboutMe h3{
+.aboutMe h3 {
     font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
     font-weight: 700;
     color: #4a4a4a;
 }
 
-.aboutMe h1{
+.aboutMe h1 {
     font-family: "Geist", Arial, Helvetica, sans-serif;
     font-size: 6rem;
     font-weight: 700;
     color: black;
 }
 
-.amText{
+.amText {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
@@ -31,6 +34,62 @@
     color: #000;
     text-align: center;
     width: 60%;
-    height: auto;
     gap: 2rem;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #131313;
+    padding: 3rem 0;
+}
+
+.skills {
+    width: 100%;
+    background-color: #131313;
+}
+
+@media (max-width: 1024px) {
+    .aboutMe h1 {
+        font-size: 4rem;
+    }
+
+    .aboutMe h3 {
+        margin-top: 2rem;
+    }
+
+    .amText {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutMe h1 {
+        font-size: 3rem;
+    }
+
+    .amText {
+        width: 90%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutMe h1 {
+        font-size: 2.5rem;
+    }
+
+    .aboutMe h3 {
+        font-size: 1rem;
+    }
+
+    .amText {
+        width: 95%;
+        font-size: 0.95rem;
+        gap: 1.5rem;
+    }
 }
