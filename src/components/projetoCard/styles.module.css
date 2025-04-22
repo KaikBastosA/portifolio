@@ -1,0 +1,78 @@
+.card {
+  display: block;
+  height: 33%;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.imageContainer {
+  position: relative;
+  height: 240px;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.image {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  transition: transform 0.4s ease;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 1rem;
+  text-align: center;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  pointer-events: none;
+  font-family: "Source Code Pro", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.titleContainer {
+  background-color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #000;
+  font-family: "Geist", Arial, sans-serif;
+}

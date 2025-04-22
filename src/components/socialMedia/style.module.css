@@ -1,15 +1,23 @@
-.socialMedia{
+.socialMedia {
     display: flex;
     flex-direction: row;
     gap: 2rem;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.socialMedia .Icon{
+.socialMedia .Icon {
     transition: transform 0.1s ease-in-out;
 }
 
-.socialMedia .Icon:hover{
+.socialMedia .Icon:hover {
     transform: scale(1.2);
+}
+
+@Media (max-width: 768px) {
+    .socialMedia {
+        margin: 2rem 0;
+        flex-wrap: wrap;
+    }
 }

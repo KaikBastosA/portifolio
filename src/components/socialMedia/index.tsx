@@ -5,10 +5,10 @@ import github from "@/assets/github.png";
 import instagram from "@/assets/instagram.png";
 import linkedin from "@/assets/linkedin.png";
 
-export default function SocialMedia(){
-    return(
-        <div className={style.socialMedia}>
-        <Link href="https://github.com/KaikBastosA" target="_blank">
+export default function SocialMedia() {
+  return (
+    <div className={style.socialMedia}>
+      <Link href="https://github.com/KaikBastosA" target="_blank">
         <Image
           src={github}
           alt="GitHub"
@@ -16,8 +16,8 @@ export default function SocialMedia(){
           height={35}
           className={style.Icon}
         />
-        </Link>
-        <Link href="https://www.linkedin.com/in/kaik-bastos/" target="_blank">
+      </Link>
+      <Link href="https://www.linkedin.com/in/kaik-bastos/" target="_blank">
         <Image
           src={linkedin}
           alt="Linkedin"
@@ -25,8 +25,8 @@ export default function SocialMedia(){
           height={35}
           className={style.Icon}
         />
-        </Link>
-        <Link href="#" target="_blank">
+      </Link>
+      <Link href="#" target="_blank">
         <Image
           src={instagram}
           alt="Instagram"
@@ -34,7 +34,7 @@ export default function SocialMedia(){
           height={35}
           className={style.Icon}
         />
-        </Link>
-        </div>
-    )
+      </Link>
+    </div>
+  )
 }

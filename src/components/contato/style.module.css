@@ -1,0 +1,94 @@
+.contato {
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #000;
+    font-family: 'Geist', Arial, sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.name {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.inputGroup {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroupFull {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup label,
+.inputGroupFull label {
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+    color: #000;
+    font-family: "Geist", Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+.inputGroup input,
+.inputGroupFull input,
+.inputGroupFull textarea {
+    padding: 0.75rem;
+    border: 1px solid #000;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: "Geist", Arial, sans-serif;
+}
+
+.inputGroupFull textarea {
+    height: 150px;
+    resize: vertical;
+    overflow-y: auto;
+    resize: none;
+}
+
+.submitButton {
+    width: 100%;
+    align-self: flex-end;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #333;
+}
+
+.successMessage {
+    width: 50%;
+    margin: 0 auto;
+    font-family: "Geist", Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #4caf50;
+    color: white;
+    border-radius: 2rem;
+    text-align: center;
+}

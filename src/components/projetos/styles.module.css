@@ -1,0 +1,115 @@
+.projetos {
+    width: 85%;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleContainer {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.title {
+    font-family: "Geist", Arial, Helvetica, sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: white;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.filterButton {
+    background-color: #fff;
+    border: none;
+    padding: 0.8rem 1rem;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 700;
+}
+
+.filterButton:hover {
+    background-color: transparent;
+    color: #fff;
+}
+
+.active {
+    background-color: #000;
+    color: white;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.grid>* {
+    flex: 0 1 calc(33.33% - 2rem);
+    max-width: 30rem;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+    .grid>* {
+        flex: 0 1 calc(50% - 2rem);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid>* {
+        flex: 0 1 100%;
+    }
+}
+
+.showAll {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.showAllButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 2rem;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 2rem 1rem;
+    font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.showAllButton:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+@media (max-width: 968px) {
+    .title {
+        text-align: center;
+    }
+}
