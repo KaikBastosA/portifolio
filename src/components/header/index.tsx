@@ -22,11 +22,11 @@ export default function Header() {
 
       <nav className={`${style.nav} ${menuOpen ? style.open : ''}`}>
         <ul>
-          <li className={style.menuItem}><Link href="/">Início</Link></li>
-          <li className={style.menuItem}><Link href="/">Sobre mim</Link></li>
-          <li className={style.menuItem}><Link href="/">Habilidades</Link></li>
-          <li className={style.menuItem}><Link href="/">Projetos</Link></li>
-          <li className={style.menuItem}><Link href="/">Contato</Link></li>
+          <li className={style.menuItem}><Link href="/" onClick={() => setMenuOpen(false)}>Início</Link></li>
+          <li className={style.menuItem}><Link href="#Sobremim" onClick={() => setMenuOpen(false)}>Sobre mim</Link></li>
+          <li className={style.menuItem}><Link href="#Projetos" onClick={() => setMenuOpen(false)}>Projetos</Link></li>
+          <li className={style.menuItem}><Link href="#Habilidades" onClick={() => setMenuOpen(false)}>Habilidades</Link></li>
+          <li className={style.menuItem}><Link href="#Contato" onClick={() => setMenuOpen(false)}>Contato</Link></li>
         </ul>
       </nav>
     </header>
