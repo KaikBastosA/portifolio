@@ -59,14 +59,14 @@
 }
 
 .grid>* {
-    flex: 0 1 calc(33.33% - 2rem);
+    flex: 0 1 calc(100%);
     max-width: 30rem;
     box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
     .grid>* {
-        flex: 0 1 calc(50% - 2rem);
+        flex: 0 1 calc(100% - 2rem);
     }
 }
 
