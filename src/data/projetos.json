@@ -27,48 +27,48 @@
         "id": 4,
         "title": "Portfólio Pessoal - Versão 2",
         "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
-        "image": "https://placehold.co/600x400.png",
-        "link": "https://placehold.co/600x400.png",
-        "tags": ["SQL", "Next.js", "Power Bi"]
+        "image": "/images/academiaFitness.jpeg",
+        "link": "https://academia-v-single-page.web.app/",
+        "tags": ["Next.js", "Wordpress"]
     },
     {
         "id": 5,
         "title": "Portfólio Pessoal - Versão 3",
         "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
-        "image": "https://placehold.co/600x400.png",
-        "link": "https://placehold.co/600x400.png",
-        "tags": ["SQL", "Next.js"]
+        "image": "/images/academiaVerde.png",
+        "link": "https://amostra-de-site---academia.web.app/",
+        "tags": ["Next.js"]
     },
     {
         "id": 6,
         "title": "Portfólio Pessoal - Versão 4",
         "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
-        "image": "https://placehold.co/600x400.png",
-        "link": "https://placehold.co/600x400",
+        "image": "/images/portfolio.png",
+        "link": "https://meu-portfolio-pessoal.web.app/",
         "tags": ["React", "Next.js"]
     },
     {
         "id": 7,
         "title": "Portfólio Pessoal - Versão 5",
         "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
-        "image": "https://placehold.co/600x400.png",
-        "link": "https://placehold.co/600x400",
+        "image": "/images/academiaFitness.jpeg",
+        "link": "https://academia-v-single-page.web.app/",
         "tags": ["React", "Next.js"]
     },
     {
         "id": 8,
         "title": "Portfólio Pessoal - Versão 6",
         "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
-        "image": "https://placehold.co/600x400.png",
-        "link": "https://placehold.co/600x400",
-        "tags": ["React", "Next.js"]
+        "image": "/images/academiaVerde.png",
+        "link": "https://amostra-de-site---academia.web.app/",
+        "tags": ["React", "Next.js", "Wordpress", "Elementor"]
     },
     {
         "id": 9,
         "title": "Portfólio Pessoal - Versão 7",
         "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
-        "image": "https://placehold.co/600x400.png",
-        "link": "https://placehold.co/600x400",
-        "tags": ["React", "Next.js"]
+        "image": "/images/portfolio.png",
+        "link": "https://meu-portfolio-pessoal.web.app/",
+        "tags": ["React", "Next.js", "Wordpress", "Elementor"]
     }
 ]
