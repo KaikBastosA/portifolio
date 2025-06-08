@@ -1,16 +1,13 @@
 import style from "./style.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import github from "@/assets/github.png";
-import instagram from "@/assets/instagram.png";
-import linkedin from "@/assets/linkedin.png";
 
 export default function SocialMedia() {
   return (
     <div className={style.socialMedia}>
       <Link href="https://github.com/KaikBastosA" target="_blank">
         <Image
-          src={github}
+          src="/redes/github.png"
           alt="GitHub"
           width={35}
           height={35}
@@ -19,7 +16,7 @@ export default function SocialMedia() {
       </Link>
       <Link href="https://www.linkedin.com/in/kaik-bastos/" target="_blank">
         <Image
-          src={linkedin}
+          src="/redes/linkedin.png"
           alt="Linkedin"
           width={35}
           height={35}
@@ -28,7 +25,7 @@ export default function SocialMedia() {
       </Link>
       <Link href="#" target="_blank">
         <Image
-          src={instagram}
+          src="/redes/instagram.png"
           alt="Instagram"
           width={35}
           height={35}

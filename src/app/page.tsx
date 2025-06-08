@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
       <section id="Sobremim" className={style.aboutMe}>
-        <h3>Full Stack Developer</h3>
+        <h3>Front-end Developer</h3>
         <h1>Kaik Bastos</h1>
         <div className={style.amText}>
             <p>Minha jornada como desenvolvedor começou com a paixão por transformar ideias em realidade através do código. Hoje, como especialista em front-end, dedico-me a construir interfaces de usuário responsivas, performáticas e visualmente impactantes.</p>

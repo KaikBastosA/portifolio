@@ -20,55 +20,55 @@
         "title": "Portfólio Pessoal",
         "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
         "image": "/images/portfolio.png",
-        "link": "https://meu-portfolio-pessoal.web.app/",
+        "link": "https://kaik-bastos.web.app/",
         "tags": ["React", "Next.js"]
     },
     {
         "id": 4,
-        "title": "Portfólio Pessoal - Versão 2",
-        "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
+        "title": "Academia Fitness Gym",
+        "description": "Um site responsivo de uma academia, com informações sobre os serviços oferecidos, horários e preços. O site foi feito como prática e foi desenvolvido com Wordpress e Elementor.",
         "image": "/images/academiaFitness.jpeg",
         "link": "https://academia-v-single-page.web.app/",
-        "tags": ["Next.js", "Wordpress"]
+        "tags": ["Wordpress", "Elementor"]
     },
     {
         "id": 5,
-        "title": "Portfólio Pessoal - Versão 3",
-        "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
+        "title": "Academia Verde",
+        "description": "Um simples site de uma academia com verde predominante. O site foi feito como prática e foi desenvolvido com Wordpress e Elementor.",
         "image": "/images/academiaVerde.png",
         "link": "https://amostra-de-site---academia.web.app/",
-        "tags": ["Next.js"]
+        "tags": ["Wordpress", "Elementor"]
     },
     {
         "id": 6,
-        "title": "Portfólio Pessoal - Versão 4",
+        "title": "Portfólio Pessoal",
         "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
         "image": "/images/portfolio.png",
-        "link": "https://meu-portfolio-pessoal.web.app/",
+        "link": "https://kaik-bastos.web.app/",
         "tags": ["React", "Next.js"]
     },
     {
         "id": 7,
-        "title": "Portfólio Pessoal - Versão 5",
-        "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
+        "title": "Academia Fitness Gym",
+        "description": "Um site responsivo de uma academia, com informações sobre os serviços oferecidos, horários e preços. O site foi feito como prática e foi desenvolvido com Wordpress e Elementor.",
         "image": "/images/academiaFitness.jpeg",
         "link": "https://academia-v-single-page.web.app/",
-        "tags": ["React", "Next.js"]
+        "tags": ["Wordpress", "Elementor"]
     },
     {
         "id": 8,
-        "title": "Portfólio Pessoal - Versão 6",
-        "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
+        "title": "Academia Verde",
+        "description": "Um simples site de uma academia com verde predominante. O site foi feito como prática e foi desenvolvido com Wordpress e Elementor.",
         "image": "/images/academiaVerde.png",
         "link": "https://amostra-de-site---academia.web.app/",
-        "tags": ["React", "Next.js", "Wordpress", "Elementor"]
+        "tags": ["Wordpress", "Elementor"]
     },
     {
         "id": 9,
-        "title": "Portfólio Pessoal - Versão 7",
+        "title": "Portfólio Pessoal",
         "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades. O site foi desenvolvido com React e Next.js",
         "image": "/images/portfolio.png",
-        "link": "https://meu-portfolio-pessoal.web.app/",
-        "tags": ["React", "Next.js", "Wordpress", "Elementor"]
+        "link": "https://kaik-bastos.web.app/",
+        "tags": ["React", "Next.js"]
     }
 ]

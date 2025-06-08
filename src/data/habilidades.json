@@ -2,80 +2,67 @@
     {
       "id": 1,
       "nome": "React",
-      "descricao": "Biblioteca JavaScript para construir interfaces de usuário.",
+      "descricao": "Uma biblioteca JavaScript declarativa e eficiente para construir interfaces de usuário interativas. Permite a criação de componentes reutilizáveis que gerenciam seu próprio estado, facilitando o desenvolvimento de aplicações complexas de página única (SPA) com um DOM virtual de alta performance.",
       "icone": "/icons/react.png"
     },
     {
       "id": 2,
       "nome": "Next.js",
-      "descricao": "Framework React para aplicações web modernas com SSR.",
+      "descricao": "Um poderoso framework React que habilita funcionalidades como renderização no lado do servidor (SSR) e geração de sites estáticos (SSG), otimizando o SEO e o tempo de carregamento inicial. Oferece uma estrutura robusta com roteamento baseado em arquivos e otimização de imagens.",
       "icone": "/icons/nextjs.png"
     },
     {
       "id": 3,
       "nome": "TypeScript",
-      "descricao": "Superset do JavaScript que adiciona tipagem estática.",
+      "descricao": "Um superset de JavaScript que adiciona tipagem estática opcional ao código. Ajuda a prevenir bugs em tempo de desenvolvimento, melhora a legibilidade e a manutenção de projetos de grande escala, oferecendo autocompletar e refatoração de código mais inteligentes.",
       "icone": "/icons/typescript.png"
     },
     {
         "id": 4,
         "nome": "Photoshop",
-        "descricao": "Software de edição de imagens e design gráfico.",
+        "descricao": "O software padrão da indústria para edição de imagens raster e design gráfico. Utilizado para tratamento de fotos, manipulação, composição de imagens, pintura digital e criação de layouts para web e impressão, oferecendo um conjunto de ferramentas incomparável.",
         "icone": "/icons/photoshop.png"
     },
     {
         "id": 5,
         "nome": "Illustrator",
-        "descricao": "Software de design gráfico e ilustração vetorial.",
+        "descricao": "Ferramenta de design focada em gráficos vetoriais, ideal para criar logotipos, ícones, ilustrações e tipografias que podem ser redimensionados para qualquer tamanho sem perda de qualidade. Essencial para projetos de identidade visual e materiais de marketing.",
         "icone": "/icons/illustrator.png"
     },
     {
         "id": 6,
         "nome": "Figma",
-        "descricao": "Ferramenta de design de interface e prototipagem.",
+        "descricao": "Uma plataforma de design de interface (UI) e experiência do usuário (UX) baseada na nuvem. Facilita a colaboração em tempo real, permitindo que equipes criem, testem e entreguem designs de alta fidelidade e protótipos interativos de forma ágil e integrada.",
         "icone": "/icons/figma.png"
     },
     {
         "id": 7,
-        "nome": "SQL",
-        "descricao": "Linguagem de consulta para bancos de dados relacionais.",
-        "icone": "/icons/sql.png"
-    },
-    {
-        "id": 8,
-        "nome": "Power BI",
-        "descricao": "Ferramenta de visualização e análise de dados da Microsoft.",
-        "icone": "/icons/powerbi.png"
-    },
-    {
-        "id": 9,
         "nome": "WordPress",
-        "descricao": "Sistema de gerenciamento de conteúdo (CMS) para criação de sites.",
+        "descricao": "O sistema de gerenciamento de conteúdo (CMS) mais popular do mundo. Permite criar e gerenciar desde blogs simples a sites corporativos complexos, com um vasto ecossistema de temas e plugins que estendem sua funcionalidade para e-commerce, portfólios e muito mais.",
         "icone": "/icons/wordpress.png"
     },
     {
-        "id": 10,
+        "id": 8,
         "nome": "Elementor",
-        "descricao": "Construtor de páginas para WordPress com interface drag-and-drop.",
+        "descricao": "Um construtor de páginas visual para WordPress que revoluciona a criação de sites com sua interface de arrastar e soltar (drag-and-drop). Permite a personalização completa do design e layout de páginas sem a necessidade de escrever uma única linha de código.",
         "icone": "/icons/elementor.png"
     },
     {
-        "id": 11,
+        "id": 9,
         "nome": "JavaScript",
-        "descricao": "Linguagem de programação para desenvolvimento web.",
+        "descricao": "A linguagem de programação fundamental da web, utilizada para criar interatividade e dinamismo nas páginas. Executada no navegador do cliente, é essencial para o desenvolvimento front-end e também popular no back-end com ambientes como o Node.js.",
         "icone": "/icons/javascript.png"
     },
     {
-        "id": 12,
+        "id": 10,
         "nome": "HTML",
-        "descricao": "Linguagem de marcação para estruturar páginas web.",
+        "descricao": "Linguagem de Marcação de Hipertexto (HyperText Markup Language), o esqueleto de todas as páginas web. Define a estrutura semântica do conteúdo, como títulos, parágrafos, links e imagens, sendo a base sobre a qual outras tecnologias web operam.",
         "icone": "/icons/html5.png"
     },
     {
-        "id": 13,
+        "id": 11,
         "nome": "CSS",
-        "descricao": "Linguagem de estilo para estilizar páginas web.",
+        "descricao": "Folhas de Estilo em Cascata (Cascading Style Sheets), a linguagem usada para descrever a apresentação e o design visual de um documento HTML. Controla cores, fontes, espaçamentos, layouts e animações, permitindo criar interfaces ricas e responsivas.",
         "icone": "/icons/css3.png"
     }
   ]
-  
